@@ -1,0 +1,124 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(187, 183, 183);
+}
+.heading{
+    
+    font-size: 90px;
+    font-weight:bold;
+    color:black;
+    margin-left: 30px;
+    margin-top: 130px;
+    position: absolute;
+   
+}
+.header{
+    margin-bottom: 400px;
+    margin-left: 50px;
+}
+
+.flexbox-container-0 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:70px;
+    margin-left: 400px;
+    height: 100px;
+    width: 800px;
+    margin-bottom:0px;
+    border-radius: 0px;
+    background:white;
+ 
+    }
+    
+.flexbox-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:0px;
+margin-left: 400px;
+height: 500px;
+width: 800px;
+left: -648px;
+top: -432px;
+border-radius: 0px;
+background:white;
+}
+
+.flexbox-item{
+    width:200px;
+    height:400px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    border:1px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1{
+    min-height: 200px;   
+    flex-basis: 0;
+    flex-grow: 2;  
+    margin-left: 30px;
+    background-color: rgb(36, 33, 33);
+    overflow: visible;
+}
+
+
+.flexbox-item-1 h2{
+    font-size: 45px;
+    color:white;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.flexbox-item-1 hr{
+    
+    color:white;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+.flexbox-item-1 p{
+    font-size: 12px;
+    color:rgb(148, 144, 144);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 30;
+}
+.flexbox-item-1 a {
+    font-size: 15px;
+    color:rgb(148, 144, 144);
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.flexbox-item-1 h3 {
+    font-size: 15px;
+    color:rgb(148, 144, 144);
+    font-weight: 50;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.flexbox-item-2{
+    min-height: 200px;
+    flex-basis: 0;
+    flex-grow: 2; 
+    margin-right: 30px;
+    
+}
+.fa-github{
+    color:white;
+    margin-left: 20px;
+    margin-top: 0px;  
+    margin-bottom: 200px;
+}
+.fa-twitter{
+    color:white;
+    margin-left: 5px;
+    margin-top: 0px;  
+    margin-bottom: 100px;
+}
+.flexbox-item-1 .icon .fa-github{
+    font-size: 25px;
+}
+.flexbox-item-1 .icon .fa-twitter{
+    font-size: 25px;
+}
